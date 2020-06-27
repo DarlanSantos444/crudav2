@@ -17,9 +17,7 @@
     $marca            = $v['marca'];
     $valor            = $v['valor'];
     $quantidade       = $v['quantidade'];
-
-
-  }
+  } 
   } catch(PDOException $e) {
   echo "Error: " . $e->getMessage();
   }
@@ -76,11 +74,11 @@
           </div>
           <!-- /.card-header -->
           <!-- form start -->
-          <form role="form" name="form_distribuidora" method="POST" action="editar.php?id=<?php echo $id; ?>" >
+          <form role="form" name="form_edtproduto" method="POST" action="editar.php?id=<?php echo $id; ?>" >
             <div class="card-body">
               <div class="form-group">
                 <label for="id">ID</label>
-                <input type="text" class="form-control" id="id" name="id" required disabled value="<?php echo $id; ?>" >
+                <input type="number" class="form-control" id="id" name="id" required disabled value="<?php echo $id; ?>" >
               </div>
               <div class="form-group">
                 <label for="nome_produto">Nome</label>

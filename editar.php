@@ -6,12 +6,10 @@
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    //$sql = "UPDATE MyGuests SET lastname='Doe' WHERE id=2";
-
-    // prepare sql and bind parameters
+  // prepare sql and bind parameters
     $stmt = $conn->prepare("UPDATE produtos SET nome=:nome, marca=:marca, 
     valor=:valor, quantidade=:quantidade WHERE id=:id");
-    $stmt->bindParam( $id);
+    $stmt->bindParam(':id',$id);
     $stmt->bindParam(':nome_produto', $nome_produto);
     $stmt->bindParam(':marca', $marca);
     $stmt->bindParam(':valor', $valor);
@@ -33,5 +31,5 @@
     }
     $conn = null;
 
-    //header('Location: index_dist.php');
+    //header('Location: index_p.php');
 ?> 
