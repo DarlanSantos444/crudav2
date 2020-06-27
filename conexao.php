@@ -1,14 +1,9 @@
 <?php
     //Conexão com banco de dados
     function connection(){
-       // $servername = "sql107.epizy.com";
-       // $username   = "epiz_25649959";
-       // $password   = "yVu5xbKsLmA243L";
-       // $db         = "epiz_25649959_loja";
-
-        $servername = "localhost";
-        $username   = "root";
-        $password   = "";
+        $servername = "sql111.epizy.com";
+        $username   = "epiz_26106940";
+        $password   = "8dJBDvcI4g2pr0";
         $db         = "loja";
 
         try {
