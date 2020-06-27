@@ -20,5 +20,5 @@
     }
     $conn = null;
 
-    header('Location: index_p.php');
+    header('Location: add_p.php');
 ?> 
