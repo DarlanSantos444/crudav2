@@ -50,7 +50,7 @@
               <div class="icon">
                 <i class="ion ion-bag"></i>
               </div>
-              <a href="cad_p.php" class="small-box-footer">Cadastrar<i class="fas fa-arrow-circle-right"></i></a>
+              <a href="add_p.php" class="small-box-footer">Cadastrar<i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
