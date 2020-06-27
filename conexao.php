@@ -4,7 +4,7 @@
         $servername = "sql111.epizy.com";
         $username   = "epiz_26106940";
         $password   = "8dJBDvcI4g2pr0";
-        $db         = "loja";
+        $db         = "epiz_26106940_loja";
 
         try {
         $conn = new PDO("mysql:host=$servername;dbname=$db;charset=utf8", $username, $password);
